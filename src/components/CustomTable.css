@@ -1,0 +1,111 @@
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  color: coral;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search-icon {
+  width: 100%;
+  border: 1px solid #e5e4e2;
+  height: 30px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.row {
+  background-color: #e5e4e2;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.multi-delete-btn {
+  background-color: coral;
+  color: white;
+  border-radius: 18px;
+  border: none;
+  padding: 4px;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.disabled-btn {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.pagination-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.page-btn {
+  cursor: pointer;
+  border-radius: 60px;
+  background-color: coral;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-page-btn {
+  background-color: white;
+  color: coral;
+  border: 1px solid coral;
+}
+.disabled-page-btn {
+  cursor: default;
+  background-color: white;
+  color: #e5e4e2;
+  border: 1px solid #e5e4e2;
+}
+
+.edit,
+.delete {
+  background-color: coral;
+  color: white;
+  margin: 2px;
+  height: 30px;
+  width: 60px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
